@@ -1,0 +1,7 @@
+<h1>Service-Data-Angular</h1>
+<ul *ngFor="let post of mensajes |async" class="list-group">
+    <li class="list-group-item">
+        <h3>{{post.title}}</h3>
+        <p>{{post.body}}</p>
+    </li>
+</ul>
